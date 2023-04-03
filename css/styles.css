@@ -54,9 +54,11 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.link:hover {
   color: var(--ocean);
+}
+.link:focus {
+  color: #404bbf;
 }
 
 .list {
@@ -132,7 +134,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--navy-blue);
+  color: var(--grey);
 }
 /*Section4*/
 .team {
@@ -160,6 +162,7 @@ body {
 /*Portfolio*/
 
 .filter-btn {
+  font-family: var(--primary-font), sans-serif;
   color: var(--iris);
   background-color: var(--cloud);
   border-radius: 4px;
