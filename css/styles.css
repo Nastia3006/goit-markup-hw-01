@@ -17,8 +17,7 @@
 }
 /*Header*/
 body {
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--primary-font), sans-serif;
   font-style: normal;
   color: var(--main-txt-cl);
   background-color: var(--white);
@@ -43,8 +42,10 @@ body {
 .logo-dark {
   color: var(--navy-blue);
 }
-
 .link {
+  text-decoration: none;
+}
+.link-list {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 16px;
