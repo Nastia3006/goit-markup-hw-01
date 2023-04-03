@@ -1,5 +1,5 @@
 :root {
-  --primary-font: Roboto;
+  --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway;
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -17,7 +17,7 @@
 }
 /*Header*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   color: var(--main-txt-cl);
   background-color: var(--white);
