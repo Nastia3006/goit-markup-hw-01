@@ -17,7 +17,7 @@
 }
 /*Header*/
 body {
-  font-family: var(--main-font), sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: var(--main-txt-cl);
   background-color: var(--white);
@@ -57,7 +57,7 @@ body {
 }
 
 .link-contacts:focus {
-  color: var(--ocean);
+  color: #404bbf;
 }
 .link-contacts:hover {
   color: var(--ocean);
