@@ -17,7 +17,8 @@
 }
 /*Header*/
 body {
-  font-family: var(--primary-font);
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   color: var(--main-txt-cl);
   background-color: var(--white);
